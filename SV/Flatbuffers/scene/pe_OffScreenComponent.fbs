@@ -1,0 +1,13 @@
+namespace Titan.TrinityScene;
+
+
+table pe_OffScreenComponent {
+    unk_0: uint32; //1280 .. Screen width?
+    unk_1: uint32; //720 .. Screen height?
+    unk_2: float; //0.05f
+    unk_3: uint32;
+    unk_4: uint32;
+    unk_5: string;
+}
+
+root_type pe_OffScreenComponent;

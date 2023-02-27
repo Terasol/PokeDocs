@@ -1,0 +1,9 @@
+namespace Titan.TrinityScene;
+
+
+table ti_DynamicExclusionComponent {
+    unk_0: int8;
+    unk_1: bool = false;
+}
+
+root_type ti_DynamicExclusionComponent;

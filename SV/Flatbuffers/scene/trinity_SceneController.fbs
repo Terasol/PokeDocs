@@ -1,0 +1,10 @@
+namespace Titan.TrinityScene;
+
+table trinity_SceneController {
+    unk_0: float;
+    unk_1: float;
+    unk_2: float;
+    unk_3: float;
+}
+
+root_type trinity_SceneController;

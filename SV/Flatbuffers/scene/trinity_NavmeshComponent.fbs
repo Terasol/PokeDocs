@@ -1,0 +1,10 @@
+namespace Titan.TrinityScene;
+
+table trinity_NavmeshComponent {
+    navmesh_file_path: string;
+    name: string;
+    unk_2: bool = false;
+    unk_3: float;
+}
+
+root_type trinity_NavmeshComponent;

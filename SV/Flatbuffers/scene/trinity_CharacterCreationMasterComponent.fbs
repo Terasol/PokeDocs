@@ -6,13 +6,18 @@ table CcdataMasterEntry {
 	name: string;
 }
 
+table UnknownCcData{
+	unk_0:string;
+	unk_1:bool
+}
+
 table trinity_CharacterCreationMasterComponent {
 	name: string;
-	res_1: uint32;
+	res_1: bool;
 	unk_2: float;
 	unk_3: float;
 	unk_4: float;
-	res_5: uint32;
+	res_5: bool;
 	unk_6: float;
 	unk_7: uint32;
 	unk_8: float;
@@ -23,7 +28,8 @@ table trinity_CharacterCreationMasterComponent {
 	res_13: uint32;
 	res_14: uint32;
 	ccdata_master_list: [CcdataMasterEntry];
-	unk_16: [uint32];
+	unk_16: [UnknownCcData];
+	res_17: bool;
 }
 
 root_type trinity_CharacterCreationMasterComponent;

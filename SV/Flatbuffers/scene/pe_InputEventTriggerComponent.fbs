@@ -1,0 +1,13 @@
+namespace Titan.TrinityScene;
+
+
+table pe_InputEventTriggerComponent {
+    unk_0: string;
+    unk_1: string;
+    unk_2: uint32; //unused
+    unk_3: uint32;
+    unk_4: string;
+    unk_5: uint32;
+}
+
+root_type pe_InputEventTriggerComponent;

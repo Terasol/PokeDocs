@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+table trinity_CameraAnimationComponent {
+	name: string;
+	file_path: string;
+}
+
+root_type trinity_CameraAnimationComponent;

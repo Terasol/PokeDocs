@@ -1,0 +1,11 @@
+namespace Titan.TrinityScene;
+
+
+table pe_ParticleAudioComponent {
+    unk_0: string;
+    unk_1: string; 
+    unk_2: bool = false;
+    unk_3: bool = false;
+}
+
+root_type pe_ParticleAudioComponent;

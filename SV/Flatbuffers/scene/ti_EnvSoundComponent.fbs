@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+
+table ti_EnvSoundComponent {
+    name: string;
+}
+
+root_type ti_EnvSoundComponent;

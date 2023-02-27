@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+table trinity_TerrainTreeTemplate {
+    unk_0: uint64;
+    template_file_path: string;
+}
+
+root_type trinity_TerrainTreeTemplate;

@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+
+table pe_TextComponent {
+    filepath: string;
+}
+
+root_type pe_TextComponent;

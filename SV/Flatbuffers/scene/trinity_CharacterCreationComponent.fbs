@@ -1,0 +1,20 @@
+namespace Titan.TrinityScene;
+
+table trinity_CharacterCreationComponent {
+    file_path: string;
+    file_path_2: uint32;
+    unk_2: bool;
+    unk_3: float;
+    unk_4: float;
+    unk_5: float;
+    unk_6: uint32;//unused
+    unk_7: float;
+    unk_8: uint32;
+    unk_9: float;
+    unk_10: uint32;
+    unk_11: float;
+    unk_12: uint32;
+    unk_13: float;
+}
+
+root_type trinity_CharacterCreationComponent;

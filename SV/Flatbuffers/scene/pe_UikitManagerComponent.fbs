@@ -1,0 +1,12 @@
+namespace Titan.TrinityScene;
+
+
+table pe_UikitManagerComponent {
+    filepath: string;
+    unk_1: uint32;//unused 
+    unk_2: uint32;//unused 
+    unk_3: uint32;
+    unk_4: uint32;
+}
+
+root_type pe_UikitManagerComponent;

@@ -1,0 +1,13 @@
+namespace Titan.TrinityScene;
+
+table trinity_GridStremingGroup {
+    unk_0: string;
+    unk_1: bool = false;
+    unk_2: float;
+    unk_3: [float];
+    unk_4: [uint16];
+    unk_5: float;
+    unk_6: float;
+}
+
+root_type trinity_GridStremingGroup;

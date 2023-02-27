@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+
+table pe_AudioJointComponent {
+    unk_0: string;
+}
+
+root_type pe_AudioJointComponent;

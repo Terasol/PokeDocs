@@ -178,7 +178,7 @@ table trinity_Scene {
     res_2: uint32;
     res_3: uint32;
     scene_object_list: [SceneEntry];
-    res_4: [uint32];
+    res_5: [string];
     unk_6: uint8;
 }
 

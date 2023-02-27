@@ -1,0 +1,30 @@
+namespace Titan.TrinityScene;
+
+table trinity_ModelComponent {
+    model_file_path: string;
+    name: string;
+    material_override_file_path: string;
+    unk_3: string;//maybe variant
+    unk_4: bool = false;
+    unk_5: float;
+    unk_6: float;
+    unk_7: float;
+    unk_8: uint32;//unused
+    unk_9: float;
+    unk_10: uint32;
+    unk_11: float;
+    unk_12: string;//currently all empty
+    unk_13: float;
+    unk_14: string;//currently all empty
+    unk_15: float;
+    unk_16: uint32;//unused
+    unk_17: bool = true;
+    unk_18: uint32;//unused
+    unk_19: string;
+    unk_20: string;//currently all empty
+    unk_21: bool = false;
+    unk_22: string;
+    unk_23: bool = false;
+}
+
+root_type trinity_ModelComponent;

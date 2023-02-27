@@ -1,7 +1,7 @@
 namespace Titan.TrinityScene;
 
 table ti_ModelDitherFadeComponent {
-	unk0: uint32;
+	unk0: bool;
 	unk1: float;
 	unk2: float;
 	unk3: float;

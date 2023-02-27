@@ -2,6 +2,7 @@ namespace Titan.TrinityScene;
 
 table trinity_GroundPlaceComponent {
     index: uint32;
+    res_1: bool = true; //probably is enabled? only shows in files as false
 }
 
 root_type trinity_GroundPlaceComponent;

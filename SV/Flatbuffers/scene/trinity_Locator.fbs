@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+table trinity_Locator {
+    file_path: string;
+    name: string;
+}
+
+root_type trinity_Locator;

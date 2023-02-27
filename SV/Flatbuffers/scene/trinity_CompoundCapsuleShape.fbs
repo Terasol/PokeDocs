@@ -1,0 +1,11 @@
+namespace Titan.TrinityScene;
+
+table trinity_CompoundCapsuleShape {
+    unk_0: string;
+    unk_1: double;
+    unk_2: float;
+    unk_3: float;
+    unk_4: uint32;
+}
+
+root_type trinity_CompoundCapsuleShape;

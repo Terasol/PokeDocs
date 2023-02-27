@@ -1,0 +1,28 @@
+namespace Titan.TrinityScene;
+
+table trinity_DecalComponent {
+    unk_0: string;
+    file_path: string;
+    unk_2: float;
+    unk_3: uint32;
+    unk_4: bool = false;
+    unk_5: uint32;//unused
+    unk_6: float;
+    unk_7: uint;
+    unk_8: uint32;//unused
+    unk_9: uint32;
+    unk_10: uint32;
+    unk_11: uint32;//unused
+    unk_12: uint32;
+    unk_13: uint32;
+    unk_14: uint32;//unused
+    unk_15: float;
+    unk_16: uint32;//unused
+    unk_17: uint32;//unused
+    unk_18: uint32;//unused
+    unk_19: uint32;//unused
+    unk_20: bool = false;
+    unk_21: float;
+}
+
+root_type trinity_DecalComponent;

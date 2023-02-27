@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+
+table pe_SimpleNode {
+    unk_0: string;
+}
+
+root_type pe_SimpleNode;

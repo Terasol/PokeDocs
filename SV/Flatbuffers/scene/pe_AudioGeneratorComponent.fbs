@@ -1,0 +1,21 @@
+namespace Titan.TrinityScene;
+
+
+table pe_AudioGeneratorComponent {
+    unk_0: string;
+    unk_1: string;
+    res_2: uint32; //unused
+    unk_3: uint32; //unused
+    unk_4: uint32; //unused
+    unk_5: uint32; //unused
+    unk_6: float; //probably volume between 0 and 100
+    unk_7: uint32;
+    unk_8: uint32;//some kind of union
+    unk_9: uint32;
+    unk_10: bool;
+    unk_11: bool;
+    unk_12: string;
+    unk_13: uint32;
+}
+
+root_type pe_AudioGeneratorComponent;

@@ -1,0 +1,18 @@
+namespace Titan.TrinityScene;
+
+table trinity_AnimationComponent {
+    file_path: string;
+    name: uint32;
+    unk_2: bool = false;
+    unk_3: float;
+    unk_4: uint32;
+    unk_5: float;
+    unk_6: uint32;
+    unk_7: float;
+    res_8: uint32;
+    unk_9: float;
+    unk_10: uint32;
+    res_11: uint32;
+}
+
+root_type trinity_AnimationComponent;

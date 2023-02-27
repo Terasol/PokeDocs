@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+table trinity_EnvironmentParameter {
+	name: string;
+	value: float;
+}
+
+root_type trinity_EnvironmentParameter;

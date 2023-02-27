@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+
+table ti_PokeVoiceComponent {
+    name: uint16;
+}
+
+root_type ti_PokeVoiceComponent;

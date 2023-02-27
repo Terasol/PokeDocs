@@ -1,0 +1,8 @@
+namespace Titan.TrinityScene;
+
+table trinity_ObjectSwitcher {
+    unk_0: string;
+    unk_1: string;
+}
+
+root_type trinity_ObjectSwitcher;

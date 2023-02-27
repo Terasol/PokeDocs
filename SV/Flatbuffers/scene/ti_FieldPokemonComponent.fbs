@@ -1,0 +1,11 @@
+namespace Titan.TrinityScene;
+
+table ti_FieldPokemonComponent {
+	national_dex_id:uint16;
+	res_1:uint32;
+	res_2:uint32;//unused
+	res_3:uint32;//unused
+	res_4:uint32;
+}
+
+root_type ti_FieldPokemonComponent;

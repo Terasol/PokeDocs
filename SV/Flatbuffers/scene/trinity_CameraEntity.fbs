@@ -11,7 +11,7 @@ table trinity_CameraEntity {
     unk_7: float;
     res_8: uint32;
     unk_9: uint8;
-    unk_10: [uint32];
+    unk_10: string;
     res_11: uint32;
     res_12: uint32;
     res_13: uint8;

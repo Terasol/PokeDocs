@@ -2,16 +2,22 @@ include "common.fbs";
 
 namespace Titan.TrinityScene;
 
+table unknown_sceneObject_data{
+	unk1: float;
+	unk2: float;
+}
+
 table trinity_SceneObject {
 	name: string;
 	srt: SRT;
-	unk1: uint32;
+	unk1: uint8;
 	unk2: uint8;
-	unk3: [uint32];
+	unk3: string;
 	unk4: uint8;
 	unk5: uint32;
 	unk6: [uint32];
 	unk7: [string];
+	unk8: unknown_sceneObject_data;
 }
 
 root_type trinity_SceneObject;

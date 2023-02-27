@@ -1,0 +1,9 @@
+namespace Titan.TrinityScene;
+
+
+table ti_CaptureComponent {
+    unk_0: uint32;
+    unk_1: uint32;
+}
+
+root_type ti_CaptureComponent;

@@ -1,0 +1,21 @@
+namespace Titan.TrinityScene;
+
+table trinity_TerrainEntity {
+    name: string;
+    file_path: float;
+    unk_2: bool = false;
+    unk_3: uint32;
+    unk_4: float;
+    material_low_file_path: string;
+    material_mid_file_path: string;
+    material_file_path: string;
+    unk_8: [uint32];
+    unk_9: bool = false;
+    unk_10: float;
+    unk_11: float;
+    unk_12: float;
+    unk_13: [string];
+    unk_14: bool = true;
+}
+
+root_type trinity_TerrainEntity;

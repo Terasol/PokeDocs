@@ -1,0 +1,19 @@
+namespace Titan.TrinityScene;
+
+table LODEntity{
+    file_path:string;
+}
+
+table trinity_CombineLODEntity {
+    unk_0: string;
+    unk_1: uint32;//unused
+    unk_2: uint32;//unknown
+    unk_3: float;
+    unk_4: float;
+    unk_5: float;
+    unk_6: uint32;//unused
+    unk_7: uint32;//unused
+    unk_8: [LODEntity];
+}
+
+root_type trinity_CombineLODEntity;

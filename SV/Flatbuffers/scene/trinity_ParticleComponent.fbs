@@ -1,0 +1,18 @@
+namespace Titan.TrinityScene;
+
+table trinity_ParticleComponent {
+    file_path: string;
+    unk_1: string;//target probably
+    unk_2: bool = false;
+    particle_name: string;
+    particle_parent: string;
+    unk_5: uint32;//unused
+    unk_6: bool = false;
+    unk_7: bool = false;
+    unk_8: uint32;//unused
+    unk_9: uint32;//unused
+    unk_10: float;
+    unk_11: bool = true;
+}
+
+root_type trinity_ParticleComponent;

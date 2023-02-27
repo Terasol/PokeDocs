@@ -1,0 +1,11 @@
+namespace Titan.TrinityScene;
+
+table pe_AudioComponent {
+    unk_0: uint32; //unused
+    unk_1: uint32; //unused
+    res_2: bool;
+    unk_3: uint32; //unused
+    unk_4: float;
+}
+
+root_type pe_AudioComponent;

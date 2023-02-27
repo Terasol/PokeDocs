@@ -1,0 +1,12 @@
+namespace Titan.TrinityScene;
+
+
+table pe_WeatherEffect {
+    effect_name: string;
+    effect_file_path: string; 
+    unk_2: double; 
+    unk_3: uint32;//unused
+    unk_4: bool = false;
+}
+
+root_type pe_WeatherEffect;

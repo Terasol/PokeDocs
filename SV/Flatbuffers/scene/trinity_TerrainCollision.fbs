@@ -1,0 +1,9 @@
+namespace Titan.TrinityScene;
+
+table trinity_TerrainCollision {
+    file_path: string;
+    unk_1: uint32;
+    unk_2: uint32;
+}
+
+root_type trinity_TerrainCollision;
