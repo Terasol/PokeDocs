@@ -8,7 +8,7 @@ table CcdataMasterEntry {
 
 table UnknownCcData{
 	unk_0:string;
-	unk_1:bool
+	unk_1:bool;
 }
 
 table trinity_CharacterCreationMasterComponent {
