@@ -5,7 +5,7 @@ table trinity_CompoundCapsuleShape {
     unk_1: double;
     unk_2: float;
     unk_3: float;
-    unk_4: uint32;
+    unk_4: string;
 }
 
 root_type trinity_CompoundCapsuleShape;

@@ -7,7 +7,7 @@ table pe_InputEventTriggerComponent {
     unk_2: uint32; //unused
     unk_3: uint32;
     unk_4: string;
-    unk_5: uint32;
+    unk_5: string;
 }
 
 root_type pe_InputEventTriggerComponent;

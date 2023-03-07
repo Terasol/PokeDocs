@@ -6,12 +6,12 @@ table pe_LightForWeather {
     unk_1: float;
     unk_2: float;
     unk_3: uint32; //unused
-    unk_4: uint32;
+    unk_4: string;
     unk_5: uint32; //unused
     unk_6: uint32; //unused
-    unk_7: uint32;
+    unk_7: string;
     unk_8: uint32; //unused
-    unk_9: uint32;
+    unk_9: string;
 }
 
 root_type pe_LightForWeather;

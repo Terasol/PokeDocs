@@ -2,7 +2,7 @@ namespace Titan.TrinityScene;
 
 
 table pe_AudioListenerComponent {
-    unk_0: uint32;
+    unk_0: string;
 }
 
 root_type pe_AudioListenerComponent;

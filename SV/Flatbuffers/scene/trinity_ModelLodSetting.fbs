@@ -10,7 +10,7 @@ table trinity_ModelLodSetting {
     unk_0: string;
     patern: string;
     unk_2: [float];//always 3
-    unk_3: string;//currently all empty
+    unk_3: [ModelLoadData];//currently all empty
 }
 
 root_type trinity_ModelLodSetting;
