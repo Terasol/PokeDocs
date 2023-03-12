@@ -2,7 +2,7 @@ namespace Titan.TrinityScene;
 
 table ti_PokemonModelComponent {
 	national_dex_id:uint16;
-	res_1:uint16;
+	form_id:uint16;
 	res_2:bool;
 	res_3:uint32;//unused
 	res_4:uint32;//unused

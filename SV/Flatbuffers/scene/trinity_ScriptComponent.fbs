@@ -2,10 +2,10 @@ namespace Titan.TrinityScene;
 
 table trinity_ScriptComponent {
     script_file: string;
-    script_hash: string;
-    res_2: uint32;
+    function_hash: string;
+    res_2: bool = false;
     res_3: uint32;
-    res_4: uint32;
+    res_4: bool = false;
     class_name: string;
 }
 

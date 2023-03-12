@@ -1,7 +1,7 @@
 namespace Titan.TrinityScene;
 
 table ti_AIPerceptualComponent {
-	value: bool;
+	value: uint8;
 }
 
 root_type ti_AIPerceptualComponent;
