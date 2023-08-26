@@ -1,8 +1,10 @@
+include "common.fbs";
+
 namespace Titan.TrinityScene;
 
 table pe_AmbientWindComponent {
     unk_0: string;
-    unk_1: float;
+    unk_1: Vec3f;
     res_2: float;
     unk_3: float;
     unk_4: float;
