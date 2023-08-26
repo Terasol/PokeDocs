@@ -1,5 +1,13 @@
 namespace Titan.TrinityScene;
 
+table uvc_data_1 {
+
+}
+table uvc_data_2 {
+
+}
+
+//pe_UikitViewComponent GOOD:414 BAD:10 Count:424
 
 table pe_UikitViewComponent {
     filepath: string;
@@ -7,8 +15,8 @@ table pe_UikitViewComponent {
     unk_2: uint32;//unused 
     unk_3: uint32;//unused 
     unk_4: uint32;//unused 
-    unk_5: uint32;
-    unk_6: uint32;
+    unk_5: [uvc_data_1];
+    unk_6: [uvc_data_2];
 }
 
 root_type pe_UikitViewComponent;
