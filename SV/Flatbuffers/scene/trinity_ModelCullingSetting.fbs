@@ -4,7 +4,7 @@ table trinity_ModelCullingSetting {
     unk_0: string;
     model_file_path: string;
     unk_2: float;
-    unk_3: string;//currently all empty
+    unk_3: [uint32];//currently all empty
 }
 
 root_type trinity_ModelCullingSetting;
