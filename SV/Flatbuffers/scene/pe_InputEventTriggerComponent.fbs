@@ -1,5 +1,8 @@
 namespace Titan.TrinityScene;
 
+table ietc_data{
+
+}
 
 table pe_InputEventTriggerComponent {
     unk_0: string;
@@ -7,7 +10,7 @@ table pe_InputEventTriggerComponent {
     unk_2: uint32; //unused
     unk_3: uint32;
     unk_4: string;
-    unk_5: string;
+    unk_5: [ietc_data]; // is empty and probably filled in game?
 }
 
 root_type pe_InputEventTriggerComponent;
