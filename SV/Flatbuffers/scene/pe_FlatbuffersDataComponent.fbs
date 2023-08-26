@@ -1,8 +1,12 @@
 namespace Titan.TrinityScene;
 
+table fbdc_additional_data {
+	unk0: string;
+	unk1: string;
+}
 table pe_FlatbuffersDataComponent {
 	data_fbs: string;
-	unk0: string;
+	unk1: [fbdc_additional_data]; //if this does not read as array it fails to parse
 }
 
 root_type pe_FlatbuffersDataComponent;
