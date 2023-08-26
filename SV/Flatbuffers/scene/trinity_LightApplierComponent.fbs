@@ -2,13 +2,13 @@ namespace Titan.TrinityScene;
 
 table trinity_LightApplierComponent {
     file_path: string;
-    unk_1: uint32;//umused
+    unk_1: uint32;//unused
     unk_2: float;
     unk_3: bool = false;
-    unk_4: uint32; //or string.. but all are empty
-    unk_5: uint32;//umused
+    unk_4: string; //string.. but all are empty
+    unk_5: uint32;//unused
     unk_6: bool = false;
-    file_path_aditional: string;
+    unk_7: uint32;
     unk_8: bool = false;
     unk_9: bool = false;
 }
