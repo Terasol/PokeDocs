@@ -1,13 +1,10 @@
+include "common.fbs";
+
 namespace Titan.TrinityScene;
 
-table SorData{
-    unk_0:float;
-    unk_1:float;
-    unk_2:float;
-}
 table trinity_SceneObjectReference {
-    unk_0: string;
-    unk_1: SorData;
+    referenced_object: string;
+    srt: SRT;
 }
 
 root_type trinity_SceneObjectReference;
