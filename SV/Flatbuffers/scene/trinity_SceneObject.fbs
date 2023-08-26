@@ -3,18 +3,23 @@ include "common.fbs";
 namespace Titan.TrinityScene;
 
 table unknown_sceneObject_data{
-	unk1: float;
+	unk1: Vec3f;
 	unk2: float;
+}
+table additional_SRT_Data{
+	unk0: uint32; // never set
+	name_of_used_vec3f: string;
+	unk2: SRT;
 }
 table trinity_SceneObject {
 	name: string;
 	srt: SRT;
-	unk2: bool; // only set when true
-	unk3: bool; // only set when true
+	unk2: bool = false;
+	unk3: bool = false;
 	unk4: string; // always name of bones/nodes
-	unk5: bool; // only set when true
+	unk5: bool = false;
 	unk6: uint32; // never set
-	unk7: [uint32];
+	additionalSRTData: [additional_SRT_Data];
 	unk8: [string];
 	unk9: unknown_sceneObject_data;
 }
