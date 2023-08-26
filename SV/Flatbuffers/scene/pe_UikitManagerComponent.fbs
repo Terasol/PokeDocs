@@ -1,12 +1,18 @@
 namespace Titan.TrinityScene;
 
+table umc_data_1{
+
+}
+table umc_data_2{
+
+}
 
 table pe_UikitManagerComponent {
     filepath: string;
     unk_1: uint32;//unused 
     unk_2: uint32;//unused 
-    unk_3: uint32;
-    unk_4: uint32;
+    unk_3: [umc_data_1];
+    unk_4: [umc_data_2];
 }
 
 root_type pe_UikitManagerComponent;
