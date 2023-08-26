@@ -1,11 +1,13 @@
+include "common.fbs";
+
 namespace Titan.TrinityScene;
 
 table trinity_CompoundCapsuleShape {
     unk_0: string;
-    unk_1: double;
+    unk_1: Vec3f;
     unk_2: float;
     unk_3: float;
-    unk_4: string;
+    unk_4: Vec3f;
 }
 
 root_type trinity_CompoundCapsuleShape;
