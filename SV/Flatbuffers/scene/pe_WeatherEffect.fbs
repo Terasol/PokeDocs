@@ -1,11 +1,12 @@
-namespace Titan.TrinityScene;
+include "common.fbs";
 
+namespace Titan.TrinityScene;
 
 table pe_WeatherEffect {
     effect_name: string;
     effect_file_path: string; 
-    unk_2: double; 
-    unk_3: uint32;//unused
+    unk_2: Vec3f;//unsure if it is actually a Vec3f but a struct with 3 floats parses at least correctly | but could be the possition/offset of the effect
+    unk_3: uint32;//never set
     unk_4: bool = false;
 }
 
