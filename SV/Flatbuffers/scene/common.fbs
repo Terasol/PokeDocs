@@ -4,6 +4,13 @@ struct Vec3f {
     z: float;
 }
 
+struct Vec4f {
+    x:float;
+    y:float;
+    z:float;
+    w:float;
+}
+
 table SRT {
     scale: Vec3f;
     rotation: Vec3f;
