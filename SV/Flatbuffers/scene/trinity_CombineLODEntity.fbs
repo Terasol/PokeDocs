@@ -1,14 +1,18 @@
+include "common.fbs";
+
 namespace Titan.TrinityScene;
 
 table LODEntity{
-    file_path:string;
+    trmdl_file_path:string;
+    tracn_file_path:string;
+    hash:string;
 }
 
 table trinity_CombineLODEntity {
     unk_0: string;
     unk_1: uint32;//unused
-    unk_2: uint32;//unknown
-    unk_3: float;
+    unk_2: [string]; //list of objects
+    unk_3: Vec3f;
     unk_4: float;
     unk_5: float;
     unk_6: uint32;//unused
