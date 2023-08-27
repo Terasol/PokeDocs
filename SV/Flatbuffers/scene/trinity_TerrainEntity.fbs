@@ -2,7 +2,7 @@ namespace Titan.TrinityScene;
 
 table trinity_TerrainEntity {
     name: string;
-    file_path: float;
+    trtrr_file_path: string;
     unk_2: bool = false;
     unk_3: uint32;
     unk_4: float;
