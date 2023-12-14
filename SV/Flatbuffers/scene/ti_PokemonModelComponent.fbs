@@ -4,7 +4,7 @@ table ti_PokemonModelComponent {
 	national_dex_id:uint16;
 	form_id:uint16;
 	res_2:bool;
-	res_3:uint32;//unused
+	res_3:bool;
 	res_4:uint32;//unused
 	res_5:float;
 	res_6:uint32;//unused
