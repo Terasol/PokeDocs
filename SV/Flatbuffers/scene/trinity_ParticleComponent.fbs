@@ -6,7 +6,7 @@ table trinity_ParticleComponent {
     unk_2: bool = false;
     particle_name: string;
     particle_parent: string;
-    unk_5: uint32;//unused
+    unk_5: bool;
     unk_6: bool = false;
     unk_7: bool = false;
     unk_8: uint32;//unused
